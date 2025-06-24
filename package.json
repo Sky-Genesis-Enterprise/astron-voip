@@ -8,6 +8,7 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "deploy": "node deploy-commands.cjs",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -19,9 +20,12 @@
   },
   "homepage": "https://github.com/Sky-Genesis-Enterprise/astron-voip#readme",
   "dependencies": {
+    "@discordjs/rest": "^2.5.1",
     "discord.js": "^14.20.0",
     "dotenv": "^16.5.0",
     "fs": "^0.0.1-security",
-    "path": "^0.12.7"
+    "node-ssh": "^13.2.1",
+    "path": "^0.12.7",
+    "pg": "^8.16.2"
   }
 }
